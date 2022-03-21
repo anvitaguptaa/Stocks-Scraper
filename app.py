@@ -139,7 +139,6 @@ def form_post():
         scraper = Scraper(lst)
         scraper.run()
         data = scraper.ticker_dict
-        print(data)
 
     return render_template('result.html', data=data)
 
