@@ -4,17 +4,21 @@
       <meta charset=”UTF-8">
       <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
       <meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
+      <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
       <title>Webscraper in Python using Flask</title>
    </head>
    <body>
-      <h1>Welcome!</h1><!-- Variables from Flask here -->
+      <h1>Welcome to Stock-Scraper!</h1>
       <p> Enter the stock symbols (comma-seperated), for the tickers you would like to see.</p>
       <p> Ex. 
          <i> msft, goog, uber, tsla </i> 
       </p>
-      <form method="POST">
-         <input name="text">
-         <input type="submit">
-      </form>
+      <div class="form">
+         <form method="POST">
+            <input name="text">
+            <input type="submit">
+         </form>
+      </div>
+      
    </body>
 </html>

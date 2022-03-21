@@ -1,0 +1,39 @@
+table, th, td {
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: white;
+}
+th, td {
+    padding-top: 2px;
+    padding-right: 5px;
+    font-family: 'Tahoma';
+}
+button {
+    margin-top: 10px;
+}
+body {
+    background-color: rgba(212, 224, 238, 0.842);
+    max-width: 500px;
+    margin: auto;
+}
+h1 {
+    font-family: 'Arial Black';
+    text-align: center;
+}
+p {
+    font-family: 'Tahoma';
+    text-align: center;
+}
+div.form {
+    display: block;
+    text-align: center;
+    
+}
+form {
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
